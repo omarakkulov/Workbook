@@ -8,4 +8,4 @@
 @ToString - определяет метод toString()
 @EqualsAndHashCode - генерирует методы equals() и hashcode()
 
-@Data - объединяет аннотации @Getter, @Setter, @ToString, @EqualsAndHashCode, и @RequiredArgsConstructor в одну
+@Data - объединяет аннотации @Getter, @Setter, @ToString, @EqualsAndHashCode, и @RequiredArgsConstructor, а также @NoArgsConstructor(если нет @AllArgsConstructor) в одну
